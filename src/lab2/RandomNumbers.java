@@ -1,4 +1,4 @@
-package lab1;
+package lab2;
 
 import java.util.*;
 
@@ -47,19 +47,19 @@ public class RandomNumbers {
     }
 
     public static void main(String[] args){
-//        Random r = new Random();
-//        System.out.println(r.nextInt()+" "+r.nextInt()+" "+r.nextInt()+" "+r.nextInt());
-//        r = new Random();
-//        System.out.println(r.nextInt()+" "+r.nextInt()+" "+r.nextInt()+" "+r.nextInt());
-//        r = new Random();
-//        System.out.println(r.nextInt()+" "+r.nextInt()+" "+r.nextInt()+" "+r.nextInt());
-//        r = new Random();
-//        System.out.println(r.nextInt()+" "+r.nextInt()+" "+r.nextInt()+" "+r.nextInt());
-//
-//        System.out.println("X Random Number : " + Math.random());
+        Random r = new Random();
+        System.out.println(r.nextInt()+" "+r.nextInt()+" "+r.nextInt()+" "+r.nextInt());
+        r = new Random();
+        System.out.println(r.nextInt()+" "+r.nextInt()+" "+r.nextInt()+" "+r.nextInt());
+        r = new Random();
+        System.out.println(r.nextInt()+" "+r.nextInt()+" "+r.nextInt()+" "+r.nextInt());
+        r = new Random();
+        System.out.println(r.nextInt()+" "+r.nextInt()+" "+r.nextInt()+" "+r.nextInt());
+
+        System.out.println("X Random Number : " + Math.random());
 
         RandomNumbers rn = new RandomNumbers();
-//        System.out.println(rn.getRandomInt(100, 500));
+        System.out.println(rn.getRandomInt(100, 500));
 	/*	String s = "hello";
 		char c = s.charAt(0);
 		char d = s.charAt(1);

@@ -1,7 +1,5 @@
 package lab2;
 
-import java.util.Arrays;
-
 public class Prog2 {
     public static void main(String[] args){
         String records = "231A,Light Bulb,123,Wilco,1.75:"+

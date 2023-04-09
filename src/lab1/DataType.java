@@ -12,7 +12,7 @@ public class DataType {
             System.out.println("Short");
         }
         else if(randomNumber >= Integer.MIN_VALUE && randomNumber <= Integer.MAX_VALUE){
-            System.out.println(randomNumber);
+            System.out.println(Double.MIN_VALUE);
             System.out.println("Int");
         }
         else{
